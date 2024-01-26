@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+
+html {
+  background-color: #7C7ADF;
+}
+
+body {
+  width: 600px;                                /* El cuerpo o donde esta tu texto*/
+  margin: 0 auto;                              /* Y, X, es valor especial que divide el espacio disponible entre iz y der*/
+  background-color: #61AFEF;
+  padding: 0 20px 20px 20px;                   /* Como reloj*/
+  border: 3px solid black;
+}
+
+h1 {
+  margin: 0;                                  /* Por espacio de defecto*/
+  padding: 20px 0;                            /* Y, X*/
+  color: #7C7ADF;
+  text-shadow: 3px 3px 1px black;             /* X, Y, desenfoque*/
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px                    /* Para darle dimension a la imagen si esta es mas grande*/
+}
+
+/*El elemento <body> es un elemento en nivel de bloque (block-level), lo que significa que tomará espacio en la página y que puede tener otros valores de espacio aplicables como margen. Las imágenes, por otra parte, son elementos inline, lo que quiere decir que no puedes aplicarles márgenes, debes dar a la imagen un comportamiento de block-level usando display: block;. */
